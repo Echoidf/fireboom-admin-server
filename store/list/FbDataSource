@@ -1,0 +1,17 @@
+[
+	{
+		"id": 2167845313183744,
+		"name": "system",
+		"sourceType": 2,
+		"config": {
+			"apiNameSpace": "system",
+			"baseURL": "http://localhost:9123",
+			"filePath": "openapi.json",
+			"headers": []
+		},
+		"enabled": true,
+		"createTime": "2023-07-21 10:20:38Z",
+		"updateTime": "",
+		"deleteTime": ""
+	}
+]
