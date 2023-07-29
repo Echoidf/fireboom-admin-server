@@ -39,6 +39,7 @@ func BeforeOriginRequest(hook *base.HttpTransportHookRequest, body *plugins.Http
 			path := strings.Split(api, "?")[0]
 			bearerToken := body.Request.Headers["Authorization"]
 			token := strings.Split(bearerToken, " ")[1]
+			//解析token
 			parseToken, err := utils.ParseToken(token)
 			var userId string
 			if parseToken.User.UserId == "" {
